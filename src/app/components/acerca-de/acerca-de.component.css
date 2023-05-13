@@ -1,0 +1,42 @@
+
+.contenedor-acerca-de{
+    padding: 0px 20px;
+    position: relative;
+}
+
+/*Estilo Acerca de Mi texto*/
+#acerca-de-mi-texto{
+    padding: 25px 0px;
+}
+
+/*Estilo de Foto de perfil*/
+#foto-de-perfil{
+    width: 60%;
+    border-radius: 30%;
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 576px){
+    
+    #foto-de-perfil{
+        position: absolute;
+        width: 18%;
+        left: 6%;
+        top: -80px;
+    }
+
+    .nombre-titulo{
+        position: absolute;
+        width: 18%;
+        left: 5%;
+        top: 110px;
+    }
+}
+
+@media (min-width: 768px){
+    
+    .contenedor-acerca-de{
+        padding: 0px 5%;
+    }
+}
